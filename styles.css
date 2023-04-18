@@ -1,0 +1,129 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 30px;
+  text-align: center;
+  /*max-height: 100vh;*/
+}
+
+h1 {
+  color: #4c4e61;
+  color: hsl(234, 12%, 34%);
+  font-size: 25px;
+  font-weight: 600;
+  margin: 40px auto 0;
+}
+
+h1+p {
+  margin-bottom: 50px;
+  max-width: 350px;
+  text-align: center;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  max-height: 100vh;
+}
+
+p {
+  color: #a2a4ad;
+  color: hsl(229, 6%, 66%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  border: 1px solid white;
+  border-top: 3px outset #44d2d2;
+  border-top: 3px outset hsl(180, 62%, 55%);
+  border-radius: 5px;
+  box-shadow: 2px 15px 10px #DFE6F0;
+  margin-bottom: 30px;
+  max-width: 350px;
+  text-align: left;
+  width: 100%;
+}
+
+.card-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-image {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px auto 30px;
+  padding: 0 25px;
+}
+
+.team-builder {
+  border-top-color: #eb5353;
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.team-karma-container {
+  margin-bottom: 30px;
+}
+
+.karma {
+  border-top-color: #fcaf4a;
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top-color: #549ef2;
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+.card-text {
+  padding: 0 25px;
+}
+
+.title {
+  font-weight: 200;
+  margin: 0 auto;
+}
+
+.title, .card-title {
+  color: #4c4e61;
+  color: hsl(234, 12%, 34%);
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: 350px;
+    width: 350px;
+  }
+
+  .card-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: center;
+  }
+
+  .team-karma-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto 40px;
+  }
+
+  h1+p {
+    max-width: 35%;
+  }
+}
